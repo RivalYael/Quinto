@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CECYTE 5</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff; 
+        }
+
+        @keyframes superEpicEntrance {
+            0% {
+                opacity: 0;
+                transform: scale(0.5) rotate(-45deg) translateY(-100%);
+            }
+            50% {
+                opacity: 0.5;
+                transform: scale(1.1) rotate(10deg) translateY(10%);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) rotate(0deg) translateY(0);
+            }
+        }
+
+        .logo {
+            animation: superEpicEntrance 3s ease-out;
+            transform-origin: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 4px 8px rgb(255, 255, 255); 
+            border: 2px solid #ecf0f1; 
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="Imagen de WhatsApp 2024-11-30 a las 10.28.47_b754805f.jpg" alt="Logo CECyTE Puebla Xicotepec">
+    </div>
+</body>
+</html>
